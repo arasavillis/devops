@@ -1,0 +1,49 @@
+> it is a version control system or source coad management 
+> it is used to track the changes in files 
+> it will maintaion multiple versions of the same file 
+> it is platform independent 
+> it is free and open source 
+> they can handle larger projects efficiently ,
+> they save time and developers can fetch and create pull requests without switching.
+
+vcs history 
+ 1)sccm - to track only one file 
+ 2)rcs - track multiple files but not directories 
+ 3)cvs - track multiple files and directories
+ 4)svn - track the multiple files and directers
+
+
+GIT STAGES : working directory 
+             staging area 
+             repository 
+
+
+
+git commands: 
+
+    yum install git -y 
+    xcreate local repository (git init .)
+    1) create a file                   : touch filename 
+    2) now add that file               : git add .(dot reprecent the corrent directory ) 
+    3) commit the file with message    : git commit -m "commit message you want " filename 
+    4) to see detials of thne file     : git log
+
+GIT-HUB :
+    web based platform used for version control
+    git(local) git-hub(centrol)
+> it simplifies the prosess of working with other people and make it easy to collaborate on projects 
+> team members can work on files and easily merge thier changes in with the master branch of the project 
+
+now you want to push your code to git hub
+git remote add origin url
+git push -u origion branch-name
+go to github and check the files that you have pushed 
+
+
+note1: git have 3 types of repositorys
+                  >local
+                  >centrol
+                  >remote 
+note2: git hub have 2 types of repositorys
+                  >public 
+                  >private 
